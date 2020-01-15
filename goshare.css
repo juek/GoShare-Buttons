@@ -1,0 +1,4 @@
+/* hide the share widget during editing, works as of Typesetter 5.1.1-b1 */
+html.gpEditing #social {
+  display: none;
+}
