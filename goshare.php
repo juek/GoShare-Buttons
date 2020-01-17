@@ -10,7 +10,7 @@ class TSgoShare{
     global $page, $addonRelativeCode;
     $page->css_admin[]  = $addonRelativeCode . '/goshare.css';
     $page->head_js[]    = $addonRelativeCode . '/goshare.js';
-    $page->jQueryCode .= '$("#gpx_content").goshare()';
+    $page->jQueryCode .= '$("#gpx_content").goshare();';
   }
 
 }
